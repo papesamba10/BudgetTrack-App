@@ -1,0 +1,6 @@
+0001_01_01_000000_create_users_table.php
+0001_01_01_000001_create_cache_table.php
+0001_01_01_000002_create_jobs_table.php
+2026_05_24_192555_create_categories_table.php
+2026_05_24_192555_create_expenses_table.php
+2026_05_24_192556_create_budgets_table.php
