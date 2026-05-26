@@ -13,6 +13,10 @@ return new class extends Migration
     {
         Schema::create('budgets', function (Blueprint $table) {
             $table->id();
+            $table->integer('amount');
+            $table->foreignId('category_id')->nullable()->constrained()->onDelete('cascade');
+            $table->date('month'); // Premier jour du mois (ex: 2026-05-01)
+            $table->foreignId('user_id')->constrained()->onDelete('cascade');
             $table->timestamps();
         });
     }

@@ -1,0 +1,123 @@
+<?php
+
+return [
+    // Navigation
+    'nav_dashboard'    => 'Tableau de bord',
+    'nav_expenses'     => 'Mes dépenses',
+    'nav_budget'       => 'Budget',
+    'nav_categories'   => 'Catégories',
+    'nav_admin'        => 'Administration',
+    'nav_profile'      => 'Mon profil',
+    'nav_logout'       => 'Déconnexion',
+    'nav_trash'        => 'Corbeille',
+
+    // Auth
+    'login'            => 'Connexion',
+    'register'         => 'Inscription',
+    'logout'           => 'Déconnexion',
+    'email'            => 'Adresse e-mail',
+    'password'         => 'Mot de passe',
+    'name'             => 'Nom complet',
+    'remember_me'      => 'Se souvenir de moi',
+    'forgot_password'  => 'Mot de passe oublié ?',
+    'reset_password'   => 'Réinitialiser le mot de passe',
+    'confirm_password' => 'Confirmer le mot de passe',
+    'send_reset_link'  => 'Envoyer le lien de réinitialisation',
+    'already_registered' => 'Déjà inscrit ?',
+    'no_account'       => 'Pas encore de compte ?',
+
+    // Dépenses
+    'expenses'         => 'Dépenses',
+    'add_expense'      => 'Ajouter une dépense',
+    'edit_expense'     => 'Modifier la dépense',
+    'delete_expense'   => 'Supprimer la dépense',
+    'amount'           => 'Montant',
+    'category'         => 'Catégorie',
+    'date'             => 'Date',
+    'note'             => 'Note (optionnelle)',
+    'no_expenses'      => 'Aucune dépense enregistrée.',
+    'spent_this_month' => 'Dépensé ce mois',
+    'save'             => 'Enregistrer',
+    'cancel'           => 'Annuler',
+    'edit'             => 'Modifier',
+    'delete'           => 'Supprimer',
+    'confirm_delete'   => 'Êtes-vous sûr de vouloir supprimer cette dépense ?',
+    'trash'            => 'Corbeille',
+    'restore'          => 'Restaurer',
+    'permanent_delete' => 'Supprimer définitivement',
+    'no_trash'         => 'La corbeille est vide.',
+
+    // Catégories
+    'categories'       => 'Catégories',
+    'add_category'     => 'Ajouter une catégorie',
+    'edit_category'    => 'Modifier la catégorie',
+    'category_name'    => 'Nom de la catégorie',
+    'category_color'   => 'Couleur',
+    'category_icon'    => 'Icône',
+    'system_categories' => 'Catégories système',
+    'custom_categories' => 'Mes catégories',
+    'no_custom_categories' => 'Aucune catégorie personnalisée.',
+
+    // Budget
+    'budget'           => 'Budget',
+    'global_budget'    => 'Budget global mensuel',
+    'category_budget'  => 'Budget par catégorie',
+    'budget_limit'     => 'Limite de budget',
+    'budget_spent'     => 'Dépensé',
+    'budget_remaining' => 'Restant',
+    'set_budget'       => 'Définir le budget',
+    'no_budget'        => 'Aucun budget défini.',
+    'budget_ok'        => 'Budget respecté',
+    'budget_warning'   => 'Attention : seuil d\'alerte atteint',
+    'budget_exceeded'  => 'Budget dépassé !',
+
+    // Tableau de bord
+    'dashboard'        => 'Tableau de bord',
+    'this_month'       => 'Ce mois-ci',
+    'recent_expenses'  => 'Dépenses récentes',
+    'spending_by_category' => 'Dépenses par catégorie',
+    'daily_spending'   => 'Dépenses quotidiennes',
+    'spending'         => 'Dépenses',
+    'no_recent'        => 'Aucune dépense récente.',
+    'categories_count' => 'Catégories actives',
+    'view_all'         => 'Voir tout',
+
+    // Filtres
+    'filters'          => 'Filtres',
+    'start_date'       => 'Date de début',
+    'end_date'         => 'Date de fin',
+    'min_amount'       => 'Montant minimum',
+    'max_amount'       => 'Montant maximum',
+    'keyword'          => 'Mot-clé (note)',
+    'apply_filters'    => 'Appliquer',
+    'reset_filters'    => 'Réinitialiser',
+    'all_categories'   => 'Toutes les catégories',
+
+    // Export
+    'export'           => 'Exporter',
+    'export_csv'       => 'Exporter en CSV',
+    'export_pdf'       => 'Exporter en PDF',
+
+    // Admin
+    'admin_dashboard'  => 'Panneau d\'administration',
+    'users_list'       => 'Liste des utilisateurs',
+    'user_expenses'    => 'Dépenses de l\'utilisateur',
+    'total_users'      => 'Utilisateurs inscrits',
+    'view_expenses'    => 'Voir les dépenses',
+    'registered_at'    => 'Inscrit le',
+    'expense_count'    => 'Nombre de dépenses',
+
+    // Général
+    'total'            => 'Total',
+    'month'            => 'Mois',
+    'add'              => 'Ajouter',
+    'back'             => 'Retour',
+    'search'           => 'Rechercher',
+    'no_results'       => 'Aucun résultat.',
+    'actions'          => 'Actions',
+    'yes'              => 'Oui',
+    'no'               => 'Non',
+    'profile'          => 'Profil',
+    'settings'         => 'Paramètres',
+    'app_name'         => 'BudgetTrack',
+];

@@ -13,6 +13,11 @@ return new class extends Migration
     {
         Schema::create('categories', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('color', 7); // Ex: #FF5733
+            $table->string('icon')->nullable();
+            $table->foreignId('user_id')->nullable()->constrained()->onDelete('cascade');
+            $table->boolean('is_system')->default(false);
             $table->timestamps();
         });
     }
